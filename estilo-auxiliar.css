@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 500px 2fr 1fr;
+}
+
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(246, 250, 248);
+}
+
+.wrapper>div {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 1em;
+    color: coral;
+}
